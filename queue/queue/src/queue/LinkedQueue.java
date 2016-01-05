@@ -4,20 +4,23 @@ public class LinkedQueue implements QueueInterface{
 
 	private LinkedList<Integer> l = new LinkedList<Integer>();
 	
-	public void Enqueue(int a)
+	public boolean Enqueue(int a)
 	{
 		l.addLast(a);
+		return true;
 	}
 	
-	public void Dequeue()
+	public boolean Dequeue()
 	{
 		if(l.isEmpty())
 		{
-			System.out.println("Yumty Linked List");
+			//System.out.println("Yumty Linked List");
+			return false;
 		}
 		else
 		{
 			l.removeFirst();
+			return true;
 		}
 		
 	}

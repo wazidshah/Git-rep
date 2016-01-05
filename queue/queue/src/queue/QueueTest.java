@@ -9,7 +9,12 @@ public class QueueTest {
 		ArrayListQueue al = new ArrayListQueue();
 		LinkedQueue l = new LinkedQueue();
 		
-		l.Dequeue();
+		if(l.Dequeue() == false)
+		{
+			System.out.println("Gu Kha");
+			
+		}
 	}
+	
 
 }

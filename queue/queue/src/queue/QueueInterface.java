@@ -2,7 +2,7 @@ package queue;
 
 public interface QueueInterface {
 
-	public void Enqueue(int a);
-	public void Dequeue();
+	public boolean Enqueue(int a);
+	public boolean Dequeue();
 	public void display();
 }
