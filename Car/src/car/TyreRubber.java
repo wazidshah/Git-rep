@@ -1,6 +1,6 @@
 package car;
 
-public class TyreRubber {
+public class TyreRubber implements PartsInterface{
 
 	private double price;
 

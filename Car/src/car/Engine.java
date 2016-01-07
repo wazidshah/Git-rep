@@ -1,6 +1,6 @@
 package car;
 
-public class Engine {
+public class Engine implements PartsInterface{
 
 	private int EngineNo;
 	private double price;

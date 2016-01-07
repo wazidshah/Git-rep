@@ -1,6 +1,6 @@
 package car;
 
-public class DriveShaft {
+public class DriveShaft implements PartsInterface{
 
 	private int DriveShaftNo;
 	private double price;

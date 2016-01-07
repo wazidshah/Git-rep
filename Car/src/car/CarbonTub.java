@@ -1,6 +1,6 @@
 package car;
 
-public class CarbonTub {
+public class CarbonTub implements PartsInterface{
 
 	private double price;
 

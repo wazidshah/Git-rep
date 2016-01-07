@@ -1,6 +1,6 @@
 package car;
 
-public class CranckShaft {
+public class CranckShaft implements PartsInterface{
 
 	private double price;
 

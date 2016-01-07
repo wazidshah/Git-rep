@@ -1,6 +1,6 @@
 package car;
 
-public class Chassis {
+public class Chassis implements PartsInterface{
 
 	private int chassis_no;
 	private double price;
